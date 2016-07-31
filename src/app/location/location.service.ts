@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Coordinate } from '../shared/coordinate';
+import { Coordinate } from '../shared';
 import { Observable, Observer } from 'rxjs/Rx';
 
 @Injectable()

@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PokemonService } from './pokemon/pokemon.service';
-import { Pokemon } from './shared';
 import { LocationService } from './location/location.service';
-import { Coordinate } from './shared/coordinate';
 import { GoogleMapsService } from './google-maps/google-maps.service';
-import { Distance } from './shared/distance';
+import { Pokemon, Coordinate, Distance } from './shared';
 
 @Component({
   moduleId: module.id,
