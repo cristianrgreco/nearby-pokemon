@@ -7,10 +7,10 @@ import {Coordinate} from './shared/coordinate';
 @Component({
   moduleId: module.id,
   selector: 'nearby-pokemon-app',
-  templateUrl: 'nearby-pokemon.component.html',
+  templateUrl: 'app.component.html',
   providers: [PokemonService, LocationService]
 })
-export class NearbyPokemonAppComponent implements OnInit {
+export class AppComponent implements OnInit {
 
   constructor(private pokemonService: PokemonService, private locationService: LocationService) { }
 
